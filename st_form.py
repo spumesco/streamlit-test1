@@ -40,6 +40,7 @@ else:
 
 # 객체 표기법을 사용한 짧은 예시
 st.header('2. 토스트 개수')
+st.subheader('15개 이상 주문시 가게로 미리 연락 바랍니다.')
 
 form = st.form('my_form_2')
 toast_num_val = form.slider('값 선택')
