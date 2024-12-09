@@ -11,7 +11,7 @@ with st.form('my_form'):
 
     # 입력 위젯
     bread_val = st.selectbox('빵의 종류', ['우유식빵', '호밀빵'])
-    bread_roast_val = st.select_slider('빵의 굽기', ['없음', '적당함', '바삭함'])
+    bread_roast_val = st.select_slider('빵의 굽기', ['없음', '약간 구움', '적당함', '약간 바삭함', '바삭함'])
     toast_type_val = st.selectbox('토스트 종류', ['에그마요', '베이컨', 'BLT', '햄치즈', '야채'])
     event_val = st.selectbox('리뷰 이벤트', ['우유', '콜라', '사이다', '아이스티'])
     serving_type_val = st.selectbox('서빙 형식', ['배달', '픽업', '가게 내 취식'])
