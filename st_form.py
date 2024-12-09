@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('st.form')
+st.title('toast.st.form')
 
 # 'with' 표기법을 사용한 전체 예시
 st.header('1. 토스트 주문서')
