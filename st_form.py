@@ -3,7 +3,7 @@ import streamlit as st
 st.title('st.form')
 
 # 'with' 표기법을 사용한 전체 예시
-st.header('1. `with` 표기법 사용 예시')
+st.header('1. 토스트 주문서')
 st.subheader('토스트 가게')
 
 with st.form('my_form'):
