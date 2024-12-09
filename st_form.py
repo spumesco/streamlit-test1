@@ -46,4 +46,4 @@ form.form_submit_button('제출')
 #모든 양식은 st.form_submit_button을 포함해야 함.
 #st.button과 st.download_button은 양식에 추가할 수 없습니다.
 
-st.write('선택된 값: ', selected_val)
+st.write('선택된 값: ', toast_num_val)
