@@ -15,7 +15,8 @@ with st.form('my_form'):
     toast_type_val = st.selectbox('토스트 종류', ['에그마요', '베이컨', 'BLT', '햄치즈', '야채'])
     event_val = st.selectbox('리뷰 이벤트', ['우유', '콜라', '사이다', '아이스티'])
     serving_type_val = st.selectbox('서빙 형식', ['배달', '픽업', '가게 내 취식'])
-    ownbowl_val = st.checkbox('자신의 다회용기 가져오기')
+    ownbowl_val = st.checkbox('자신의 그릇 가져오기')
+    owncup_val = st.checkbox('자신의 컵 가져오기')
 
     # 모든 양식은 제출 버튼을 가져야 함
     submitted = st.form_submit_button('제출')
@@ -28,7 +29,8 @@ if submitted:
         - 토스트 종류: `{toast_type_val}`
         - 리뷰 이벤트: `{event_val}`
         - 서빙 형식: `{serving_type_val}`
-        - 자신의 다회용기 가져오기: `{ownbowl_val}`
+        - 자신의 그릇 가져오기: `{ownbowl_val}`
+        - 자신의 컵 가져오기: `{owncup_val}`
         ''')
 else:
     st.write('☝️ 주문하세요!')
